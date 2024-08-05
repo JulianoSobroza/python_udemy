@@ -1,9 +1,11 @@
 from django.urls import path
-from appVioloes import views
+from violoes import views
 
 # teria que escrever algo como:
 # http://dominio.com.br/
 # http://dominio.com.br/violoes
 urlpatterns = [
-    path('lugar_um', views.appVioloes),
+    path('', views.home),
+    path('digiorgio/', views.digiorgio),
+    path('gianinni/', views.gianinni)
 ]
