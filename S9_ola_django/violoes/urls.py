@@ -5,8 +5,8 @@ from violoes import views
 # http://dominio.com.br/
 # http://dominio.com.br/violoes
 urlpatterns = [
-    path('', views.home),
-    path('digiorgio/', views.digiorgio),
-    path('gianinni/', views.gianinni),
-    path('vazioAzul', views.vazioAzul),
+    path('', views.home, name='home_violoes'),
+    path('digiorgio/', views.digiorgio, name='digiorgio'),
+    path('gianinni/', views.gianinni, name='gianinni'),
+    path('vazioAzul', views.vazioAzul, name='vazioAzul'),
 ]

@@ -6,5 +6,5 @@ from . import views
 # http://dominio.com.br/
 # http://dominio.com.br/home
 urlpatterns = [
-    path('', views.home),
+    path('', views.home, name='home'),
 ]
