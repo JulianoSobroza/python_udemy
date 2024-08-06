@@ -7,5 +7,6 @@ from violoes import views
 urlpatterns = [
     path('', views.home),
     path('digiorgio/', views.digiorgio),
-    path('gianinni/', views.gianinni)
+    path('gianinni/', views.gianinni),
+    path('vazioAzul', views.vazioAzul),
 ]

@@ -24,3 +24,12 @@ def gianinni(request):
         #'violao/gianinni.html'
         'violoes/gianinni.html'
         )
+
+
+def vazioAzul(request):
+    print('vazioAzul')
+    return render(
+        request,
+        #'violao/gianinni.html'
+        'violoes/vazioAzul.html'
+        )

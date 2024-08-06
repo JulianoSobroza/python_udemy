@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Violões Maravilhosos</title>
+    <title>Página Inicial - Violões</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,23 +17,25 @@
             padding: 1em;
             text-align: center;
         }
-        nav {
-            background-color: #444;
-            padding: 0.5em;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1em;
-        }
         .container {
             padding: 2em;
+            text-align: center;
         }
-        h1, h2 {
+        h1 {
             color: #333;
         }
-        .violao {
-            margin-bottom: 1.5em;
+        .button {
+            display: inline-block;
+            padding: 1em 2em;
+            margin: 1em;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #555;
         }
         footer {
             background-color: #333;
@@ -48,40 +50,17 @@
 </head>
 <body>
     <header>
-        <h1>Violões Maravilhosos</h1>
+        <h1>Bem-vindo ao Site de Violões</h1>
     </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#tipos">Tipos de Violão</a>
-        <a href="#contato">Contato</a>
-    </nav>
     <div class="container">
-        <section id="home">
-            <h2>Bem-vindo ao nosso site sobre violões</h2>
-            <p>Aqui você encontrará informações sobre os mais diversos tipos de violões, dicas de como escolher o melhor instrumento e muito mais!</p>
-        </section>
-        <section id="tipos">
-            <h2>Tipos de Violão</h2>
-            <div class="violao">
-                <h3>Violão Clássico</h3>
-                <p>O violão clássico, também conhecido como violão de nylon, é ideal para tocar música clássica e popular.</p>
-            </div>
-            <div class="violao">
-                <h3>Violão Acústico</h3>
-                <p>O violão acústico, com suas cordas de aço, é perfeito para estilos como folk, rock e blues.</p>
-            </div>
-            <div class="violao">
-                <h3>Violão Elétrico</h3>
-                <p>O violão elétrico é utilizado em uma grande variedade de gêneros musicais, desde o rock até o jazz.</p>
-            </div>
-        </section>
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Para mais informações, entre em contato conosco através do e-mail: contato@violoesmaravilhosos.com.br</p>
-        </section>
+        <h2>Conheça mais sobre nossas marcas:</h2>
+        <a href="gianinni" class="button">Gianinni</a>
+        <a href="digiorgio" class="button">Di Giorgio</a>
     </div>
     <footer>
-        <p>&copy; 2024 Violões Maravilhosos</p>
+        <p>&copy; 2024 Site de Violões</p>
     </footer>
 </body>
 </html>
+
+
