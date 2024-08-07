@@ -9,6 +9,13 @@ def home(request):
         'violoes/home.html'
         )
 
+def index(request):
+    print('Index do blog Violoes')
+    return render(
+        request,
+        'violoes/index.html'
+    )
+
 def digiorgio(request):
     print('Violão Di Giorgio')
     return render(
