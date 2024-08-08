@@ -1,6 +1,8 @@
 from django.urls import path
 from violoes import views
 
+app_name = 'violoes'
+
 # teria que escrever algo como:
 # http://dominio.com.br/
 # http://dominio.com.br/violoes
@@ -9,5 +11,5 @@ urlpatterns = [
     path('digiorgio/', views.digiorgio, name='digiorgio'),
     path('gianinni/', views.gianinni, name='gianinni'),
     path('vazioAzul', views.vazioAzul, name='vazioAzul'),
-    path('index/', views.index, name="index")
+    path('post/<int:id>', views.post, name='post'),
 ]
