@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from violoes.data import posts
 
 # Create your views here.
 def home(request):
@@ -11,9 +12,16 @@ def home(request):
 
 def index(request):
     print('Index do blog Violoes')
+    
+    context = {
+        'text': 'Olá blog',
+        'posts': posts
+    }
+    
     return render(
         request,
-        'violoes/index.html'
+        'violoes/index.html',
+        context
     )
 
 def digiorgio(request):
